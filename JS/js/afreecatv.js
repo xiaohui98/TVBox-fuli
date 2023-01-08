@@ -6,8 +6,8 @@
 var rule = {
     title:'afreecatv',
     host:'https://www.afreecatv.com/?hash=bora',
-    homeUrl:'/japi/weblist/apinc/recLabelList?',//网站的首页链接,用于分类获取和推荐获取
-	url:'/gapi/rkc/directory/mixList/fyclass/fypage',
+    homeUrl:'',//网站的首页链接,用于分类获取和推荐获取
+	url:'/?pg=fypage&class=fyclass',
     class_name:'全部',
     class_url:'2_208',
     detailUrl:'/fyid',//二级详情拼接链接(json格式用)
