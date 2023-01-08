@@ -6,12 +6,13 @@
 var rule = {
     title:'afreecatv',
     host:'http://m.afreecatv.com/hash=bora',
-    url:'/fyclass',
+     homeUrl:'/latest/',
+    url:'/fyclass/fypage.html[/fyclass/]',
     searchUrl:'',
     searchable:0,
     quickSearch:0,
     class_name:'全部',
-    class_url:'/',
+    class_url:'all',
     //class_url:'?live',
     headers:{
         'User-Agent':'MOBILE_UA'
