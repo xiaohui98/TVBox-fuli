@@ -11,7 +11,8 @@ var rule = {
     class_name:'全部',
     class_url:'all',
     detailUrl:'/fyid',//二级详情拼接链接(json格式用)
-    searchUrl:'/total_search.html?szLocation=main&szSearchType=total&szKeyword=**&szStype=di&szActype=&has_hint=false&pk_cnt=0',
+    //searchUrl:'/total_search.html?szLocation=main&szSearchType=total&szKeyword=**&szStype=di&szActype=&has_hint=false&pk_cnt=0',
+    searchUrl:'', 
     searchable:2,
     quickSearch:0,
     headers:{
