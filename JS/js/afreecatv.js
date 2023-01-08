@@ -5,25 +5,27 @@
 
 var rule = {
     title:'afreecatv',
-    host:'https://www.afreecatv.com/?hash=bora',
-    homeUrl:'',//网站的首页链接,用于分类获取和推荐获取
-	url:'/?pg=fypage&class=fyclass',
-    class_name:'全部',
-    class_url:'2_208',
-    detailUrl:'/fyid',//二级详情拼接链接(json格式用)
-    searchUrl:'/japi/search/api/searchShow?kw=**&page=fypage&pageSize=20',
-    searchable:2,
+    host:'http://m.afreecatv.com/hash=bora',
+    url:'/fyclass',
+    searchUrl:'',
+    searchable:0,
     quickSearch:0,
+    class_name:'全部',
+    class_url:'/',
+    //class_url:'?live',
     headers:{
-		'User-Agent':'PC_UA'
-	},
+        'User-Agent':'MOBILE_UA'
+    },
     timeout:5000,
-    limit:8,
     play_parse:true,
     lazy:'',
-    double:true,
-	推荐:'json:data.list;room;*;cover;*;*',
-	一级:'json:data.rl;rn;rs16;nn;rid',
-    二级:'*',
-    搜索:'json:data.relateShow;roomName;roomSrc;nickName;*',
+    limit:6,
+    double:false,
+    推荐:'*',
+    // 一级播放线路x3 可自行切换
+    //一级:'.loc_match .d-touch;li&&Text;img&&src;.lab_time&&Text;a:eq(0)&&href',//play.sportsteam365.com
+    一级:'.loc_match:eq(2) ul;li:gt(1):lt(4)&&Text;img&&src;li:lt(2)&&Text;a:eq(1)&&href',//play.sportsteam333.com
+    //一级:'.loc_match .d-touch;li&&Text;img&&src;.lab_time&&Text;a:eq(2)&&href',//play.sportsteam666.com
+    二级:{title:'.sub_list li:lt(2)&&Text;.sub_list li:eq(0)&&Text',img:'img&&src',desc:';;;.lab_team_home&&Text;.lab_team_away&&Text',content:'.sub_list ul&&Text',tabs:'',tab_text:'',lists:'.sub_channel a',list_text:'a&&Text',list_url:'a&&data-play'},
+    搜索:'',
 }
