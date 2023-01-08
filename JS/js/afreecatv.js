@@ -6,7 +6,7 @@
 var rule = {
     title:'afreecatv',
     host:'http://m.afreecatv.com/hash=bora',
-     homeUrl:'/latest/',
+     homeUrl:'http://m.afreecatv.com/hash=bora',
     url:'/fyclass/fypage.html[/fyclass/]',
     searchUrl:'',
     searchable:0,
