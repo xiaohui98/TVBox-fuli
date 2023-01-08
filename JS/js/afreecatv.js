@@ -6,8 +6,8 @@
 var rule = {
     title:'afreecatv',
     host:'https://m.afreecatv.com/?hash=bora',
-    homeUrl:'https://m.afreecatv.com/?hash=bora',//网站的首页链接,用于分类获取和推荐获取
-	 url:'/?hash=bora/fyclass/fypage.html[/fyclass/]',
+    //homeUrl:'https://m.afreecatv.com/?hash=bora',//网站的首页链接,用于分类获取和推荐获取
+	 url:'/total_search.html?szLocation=main&szSearchType=total/fyclass/fypage.html[/fyclass/]',
     class_name:'全部',
     class_url:'all',
     detailUrl:'/fyid',//二级详情拼接链接(json格式用)
