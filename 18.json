@@ -80,6 +80,14 @@
 "api":"./JS/lib/drpy.min.js",
 "ext":"./JS/js/afreecatv.js"
 },
+
+{
+"key":"drpy_js_91porn",
+"name":"91porn[DRPY18]",
+"type":3,
+"api":"./JS/lib/drpy.min.js",
+"ext":"./JS/js/91porn.js"
+},
   
 {
 "key":"drpy_js_猫了个咪",
