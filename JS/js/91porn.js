@@ -1,8 +1,8 @@
 var rule = {
     title:'91porn',
     host:'https://git.9se106.com/',
-    homeUrl:'/latest/',
-    url:'search#class=fyclass&page=fypage',
+    //homeUrl:'/latest/',
+    url:'class=fyclass&page=fypage',
     searchUrl:'search?keyword=**&page=fypage',
     headers:{
         'User-Agent':'MOBILE_UA'
