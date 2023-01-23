@@ -2,8 +2,8 @@ var rule = {
     title:'91porn',
     host:'https://mi7k0h.9se102.com/',
     homeUrl:'/latest/',
-    url:'/api/video/index#class=fyclass&page=fypage',
-    searchUrl:'/api/special/video?params=#keyword=**&page=fypage',
+    url:'search#class=fyclass&page=fypage',
+    searchUrl:'search?keyword=**&page=fypage',
     headers:{
         'User-Agent':'MOBILE_UA'
     },
