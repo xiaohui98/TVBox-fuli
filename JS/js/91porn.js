@@ -1,6 +1,6 @@
 var rule = {
     title:'91porn',
-    host:'https://mi7k0h.9se102.com/',
+    host:'https://git.9se106.com/',
     homeUrl:'/latest/',
     url:'search#class=fyclass&page=fypage',
     searchUrl:'search?keyword=**&page=fypage',
