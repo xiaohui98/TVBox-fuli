@@ -1,5 +1,6 @@
 {
-"spider":"./JAR/Yoursmile2.jar",
+"spider":"https://agit.ai/weigs/w/raw/branch/master/JAR/Yoursmile2.jar",
+  //"./JAR/Yoursmile2.jar",
 "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=./TV/live.txt"]}]}],
 "wallpaper":"http://maoyingshi.cc/api.php",
 
